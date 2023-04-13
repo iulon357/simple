@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 body {
@@ -70,4 +71,44 @@ img {
     font-weight: 900;
     font-size: 30px;
     margin-bottom: 75px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.row {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.course-item {
+    background-color: #fff;
+    box-shadow: 0 13px 27px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.course-item .course-img {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.text-right {
+    text-align: right;
+}
+.course-item .course-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.course-item .course-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #00e9ba;
 }
